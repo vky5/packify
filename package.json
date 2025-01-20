@@ -1,0 +1,23 @@
+{
+  "name": "packify",
+  "version": "1.0.0",
+  "description": "A package management tool",
+  "license": "ISC",
+  "author": "vky5",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./src/bin/app.ts",
+    "build": "tsc -p .",
+    "prod": "node ./dist/bin/app.js"
+  },
+  "dependencies": {
+    "progress": "^2.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33"
+  }
+}
